@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "561882838010",
+    "firebase_url": "https://couniversity-1089a.firebaseio.com",
+    "project_id": "couniversity-1089a",
+    "storage_bucket": "couniversity-1089a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561882838010:android:348607b2c019f430b76a43",
+        "android_client_info": {
+          "package_name": "com.example.couniversity_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561882838010-hmvvcvh17jpmdkheeq6f4pkkkjn6nkq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL23hmycB4MjgE-XYrLqDtrVPI2Im2zhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561882838010-hmvvcvh17jpmdkheeq6f4pkkkjn6nkq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

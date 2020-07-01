@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.qna.QnAFragment"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="597dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="0sp"/>
+
+                <Button
+                    android:id="@+id/edit_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:text="Go Back"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bg_custom_gray"
+                    android:textAllCaps="false"/>
+
+                <TextView
+                    android:id="@+id/edit_title"
+                    android:layout_width="143dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="15dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/bg_custom2"
+                    android:gravity="center"
+                    android:layout_toRightOf="@id/edit_back"
+                    android:text="Edit User Info"
+                    android:textColor="@color/color2"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"/>
+
+                <RelativeLayout
+                    android:layout_below="@id/edit_title"
+                    android:id="@+id/edit_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/edit_id_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ID : "
+                        android:layout_margin="10dp"
+                        android:textColor="@android:color/darker_gray"/>
+
+                    <EditText
+                        android:fontFamily="@font/cafe24oneprettynight"
+                        android:id="@+id/edit_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/edit_id_box"
+                        android:layout_margin="10dp"
+                        android:layout_alignBaseline="@+id/edit_id_box"/>
+
+                    <TextView
+                        android:id="@+id/edit_pw_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PW : "
+                        android:layout_margin="10dp"
+                        android:layout_below="@id/edit_id_box"
+                        android:textColor="@android:color/darker_gray"/>
+
+                    <EditText
+                        android:fontFamily="@font/cafe24oneprettynight"
+                        android:id="@+id/edit_pw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/edit_pw_box"
+                        android:layout_margin="10dp"
+                        android:layout_alignBaseline="@+id/edit_pw_box"/>
+
+                    <TextView
+                        android:id="@+id/edit_name_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name : "
+                        android:layout_margin="10dp"
+                        android:layout_below="@id/edit_pw_box"
+                        android:textColor="@android:color/darker_gray"/>
+
+                    <EditText
+                        android:fontFamily="@font/cafe24oneprettynight"
+                        android:id="@+id/edit_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/edit_name_box"
+                        android:layout_margin="10dp"
+                        android:layout_alignBaseline="@+id/edit_name_box"/>
+
+                    <TextView
+                        android:id="@+id/edit_major_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dept : "
+                        android:layout_margin="10dp"
+                        android:layout_below="@id/edit_name_box"
+                        android:textColor="@android:color/darker_gray"/>
+
+                    <EditText
+                        android:fontFamily="@font/cafe24oneprettynight"
+                        android:id="@+id/edit_major"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/edit_major_box"
+                        android:layout_margin="10dp"
+                        android:layout_alignBaseline="@+id/edit_major_box"/>
+
+                    <TextView
+                        android:id="@+id/edit_email_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-mail : "
+                        android:layout_margin="10dp"
+                        android:layout_below="@id/edit_major_box"
+                        android:textColor="@android:color/darker_gray"/>
+
+                    <EditText
+                        android:fontFamily="@font/cafe24oneprettynight"
+                        android:id="@+id/edit_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/edit_email_box"
+                        android:layout_margin="10dp"
+                        android:layout_alignBaseline="@+id/edit_email_box"/>
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/update_info"
+                    android:layout_width="159dp"
+                    android:layout_height="31dp"
+                    android:layout_below="@+id/edit_box"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/bg_custom_reverse"
+                    android:gravity="center"
+                    android:text="Update Information"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

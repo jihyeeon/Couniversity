@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Couniversity</string>
+
+    <string name="title_delivery">Delivery</string>
+    <string name="title_qna">Q&amp;A</string>
+    <string name="title_home">Home</string>
+    <string name="title_mypage">My Page</string>
+    <string name="title_setting">Setting</string>
+    <string name="delivery_list">List</string>
+
+    <string name="goback">Go Back</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

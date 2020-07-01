@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.delivery.DeliveryFragment"
+    android:background="@color/white">
+
+    <!--
+    <TextView
+        android:id="@+id/text_qna"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:background="@drawable/bg_custom"
+        android:gravity="center"
+        android:text="Questions"
+        android:textColor="@color/color1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="398dp"
+        android:layout_height="271dp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="64dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello" />
+
+        </LinearLayout>
+    </ScrollView>
+    -->
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="597dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_delivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="0sp"/>
+
+                <Button
+                    android:id="@+id/delivery_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:text="Go Back"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bg_custom_gray"
+                    android:textAllCaps="false"/>
+
+                <TextView
+                    android:id="@+id/request_delivery"
+                    android:layout_width="143dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="15dp"
+                    android:layout_marginLeft="32dp"
+                    android:background="@drawable/bg_custom2"
+                    android:gravity="center"
+                    android:layout_toRightOf="@id/delivery_back"
+                    android:text="Request Delivery"
+                    android:textColor="@color/color2"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/request_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title : "
+                    android:layout_margin="10dp"
+                    android:layout_below="@id/request_delivery"
+                    android:textColor="@android:color/darker_gray"/>
+
+                <TextView
+                    android:id="@+id/request_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item type : "
+                    android:layout_marginTop="15dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_below="@id/request_title"/>
+
+                <Spinner
+                    android:id="@+id/item_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@id/request_content_box"
+                    android:layout_toRightOf="@+id/request_item"
+                    android:layout_alignTop="@+id/request_title"
+                    />
+
+                <TextView
+                    android:id="@+id/request_store"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Store type : "
+                    android:layout_marginTop="30dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_below="@id/request_item"/>
+
+                <Spinner
+                    android:id="@+id/store_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_toRightOf="@+id/request_store"
+                    android:layout_alignTop="@+id/item_spinner"
+                    />
+
+                <EditText
+                    android:id="@+id/request_title_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/request_title"
+                    android:layout_margin="10dp"
+                    android:layout_alignBaseline="@+id/request_title"/>
+
+
+                <TextView
+                    android:id="@+id/request_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Content : "
+                    android:layout_marginTop="45dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_below="@id/request_store"/>
+                <EditText
+                    android:id="@+id/request_content_box"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@id/request_content"/>
+                <TextView
+                    android:id="@+id/request_coupon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coupon : "
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_below="@id/request_content_box"/>
+
+                <Spinner
+                    android:id="@+id/request_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/request_content_box"
+                    android:layout_toRightOf="@+id/request_coupon"
+                    android:layout_alignTop="@+id/request_coupon"
+                    android:entries="@array/coupon"/>
+
+
+
+
+                <Button
+                    android:id="@+id/upload_request"
+                    android:layout_width="159dp"
+                    android:layout_height="31dp"
+                    android:layout_below="@+id/request_spinner"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/bg_custom_reverse"
+                    android:gravity="center"
+                    android:text="Upload new request"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

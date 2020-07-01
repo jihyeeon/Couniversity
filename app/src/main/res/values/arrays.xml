@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="coupon">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="allquestions">
+        <item>C언어 코딩 질문 있습니다!</item>
+        <item>경제학개론 미시경제학 관련 질문드려요</item>
+        <item>가천리더십 과제 2번 도와주세요ㅜㅜ</item>
+        <item>파이썬 오류 해결 부탁드려요</item>
+        <item>역학 문제풀이</item>
+        <item>언어와마음 3강 뇌과학 질문</item>
+    </string-array>
+
+    <string-array name="myquestions">
+        <item>C언어 코딩 질문 있습니다!</item>
+        <item>자바 클래스 생성에 오류가 납니다ㅜㅜ</item>
+        <item>모바일 프로그래밍 변수 선언 질문드려요!</item>
+    </string-array>
+
+    <string-array name="notifications">
+        <item>C언어 코딩 질문 있습니다!에 답변이 달렸습니다</item>
+        <item>모바일 프로그래밍 변수 선언 질문드려요!에 답변이 달렸습니다</item>
+        <item>IT대 커피 배달해주실분!에 답변이 달렸습니다</item>
+    </string-array>
+
+    <string-array name="todolist">
+        <item>(월) 모바일프로그래밍 과제 제출</item>
+        <item>(수) 센서와 무선네트워크 과제 제출</item>
+        <item>(목) 소프트웨어 산업 세미나 레포트 제출</item>
+    </string-array>
+
+    <string-array name="item">
+        <item>커피</item>
+        <item>음식</item>
+        <item>복사</item>
+    </string-array>
+
+    <string-array name="coffee">
+        <item>이디야</item>
+        <item>맘모스</item>
+        <item>투썸플레이스</item>
+        <item>파스쿠치</item>
+        <item>빽다방</item>
+        <item>슬립워크</item>
+    </string-array>
+
+    <string-array name="food">
+        <item>가든한공방</item>
+        <item>신의한컵</item>
+        <item>봉구스밥버거</item>
+    </string-array>
+
+    <string-array name="copy">
+        <item>비전타워복사</item>
+        <item>모닝글로리</item>
+        <item>가천프라자</item>
+    </string-array>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".SingUp"
+        android:orientation="vertical"
+        android:background="@drawable/color_gradient">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Sign Up"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/binggrae2_bold"
+            android:textColor="@color/white"
+            android:textSize="50dp" />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/login_box"
+            android:layout_marginBottom="100dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Information"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/signUpId"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/login_text_background"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:hint="ID"
+                android:paddingLeft="18dp"
+                android:textColor="@color/dark"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/signUpPw"
+                android:hint="Password"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/login_text_background"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:paddingLeft="18dp"
+                android:layout_marginTop="16dp"
+                android:textSize="15dp"
+                android:textColor="@color/dark"/>
+
+            <EditText
+                android:id="@+id/signUpName"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/login_text_background"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:hint="Name"
+                android:paddingLeft="18dp"
+                android:textColor="@color/dark"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/signUpdepartment"
+                android:hint="Department"
+                android:background="@drawable/login_text_background"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:paddingLeft="18dp"
+                android:layout_marginTop="16dp"
+                android:textSize="15dp"
+                android:textColor="@color/dark"/>
+            <EditText
+                android:id="@+id/signUpemail"
+                android:hint="Email"
+                android:background="@drawable/login_text_background"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:paddingLeft="18dp"
+                android:layout_marginTop="16dp"
+                android:textSize="15dp"
+                android:textColor="@color/dark"/>
+
+            <Button
+                android:text="Sign in"
+                android:id="@+id/register"
+                android:background="@drawable/button_back1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

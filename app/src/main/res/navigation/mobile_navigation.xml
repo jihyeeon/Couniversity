@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_delivery"
+        android:name="com.example.couniversity_new.ui.delivery.DeliveryFragment"
+        android:label="@string/title_delivery"
+        tools:layout="@layout/fragment_delivery" />
+
+    <fragment
+        android:id="@+id/navigation_qna"
+        android:name="com.example.couniversity_new.ui.qna.QnAFragment"
+        android:label="@string/title_qna"
+        tools:layout="@layout/fragment_qna" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.couniversity_new.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_mypage"
+        android:name="com.example.couniversity_new.ui.mypage.MyPageFragment"
+        android:label="@string/title_mypage"
+        tools:layout="@layout/fragment_mypage" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.couniversity_new.ui.setting.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" />
+
+
+    <fragment
+        android:id="@+id/navigation_qna_ask"
+        android:name="com.example.couniversity_new.ui.qna.QnAaskFragment"
+        tools:layout="@layout/fragment_qna_ask" />
+
+    <fragment
+        android:id="@+id/navigation_delivery_request"
+        android:name="com.example.couniversity_new.ui.delivery.DeliveryRequestFragment"
+        tools:layout="@layout/fragment_delivery_request" />
+
+</navigation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_gradient"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/title_couniversity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/binggrae2_bold"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Couniversity"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="with your campus life"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/title_couniversity"
+            android:textColor="@color/white"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"/>
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/loading_hand"
+            android:layout_below="@id/subtitle"
+            />
+
+
+    </RelativeLayout>
+</LinearLayout>
